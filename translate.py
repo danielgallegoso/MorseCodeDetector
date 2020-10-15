@@ -7,7 +7,7 @@ import cvxpy as cvx
 from translator import morse_to_english, dic
 from sklearn.cluster import KMeans
 
-LAMBDA = .1
+LAMBDA = .18
 
 def plot_signal(nums, raw, smoothed):
     plt.subplot(211)
